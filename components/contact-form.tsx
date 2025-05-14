@@ -184,7 +184,7 @@ export default function ContactForm() {
           className={errors.consent ? "border-red-500" : ""}
         />
         <div className="space-y-1 leading-none">
-          <Label htmlFor="consent" className="text-sm font-normal">
+          <Label htmlFor="consent" className="text-sm font-normal text-primary">
             Acepto la{" "}
             <Link href="/politicas/privacidad" className="text-accent underline">
               política de privacidad
