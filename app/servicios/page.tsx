@@ -189,7 +189,7 @@ export default function ServicesPage() {
             </div>
             <div className="relative h-[400px] overflow-hidden rounded-lg shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=1200&query=reunión de equipo de análisis deportivo"
+                src="/9aa55a6c4deccee4cf7f0e79d55c24e1.jpg"
                 alt="Nuestro equipo trabajando"
                 fill
                 className="object-cover"

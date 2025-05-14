@@ -57,11 +57,11 @@ export default function Header() {
             </button>
           </div>
 
-          <div className="hidden lg:flex lg:justify-end">
+          <Link href="/contacto" className="hidden lg:flex lg:justify-end">
             <Button variant="outline" className="border-accent text-primary hover:bg-accent hover:text-primary">
-              Últimos Pronósticos
+              Contacto
             </Button>
-          </div>
+          </Link>
         </div>
       </div>
 

@@ -395,14 +395,14 @@ export default function BlogPage() {
               )}
 
               {/* Botón de cargar más (alternativa a la paginación) */}
-              {filteredArticles.length > 0 && (
+              {/* {filteredArticles.length > 0 && (
                 <div className="mt-12 text-center">
                   <Button variant="outline" className="px-8 text-primary">
                     Mostrar más artículos
                   </Button>
                 </div>
-              )}
-            </div>
+              )} */}
+            </div>  
           </div>
         </div>
       </section>
