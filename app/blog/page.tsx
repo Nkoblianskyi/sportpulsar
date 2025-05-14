@@ -147,25 +147,7 @@ export default function BlogPage() {
           <p className="mx-auto mb-8 max-w-2xl text-xl text-muted">
             Las últimas noticias deportivas, análisis tácticos y pronósticos de partidos.
           </p>
-          <div className="mx-auto flex max-w-md items-center rounded-full bg-white px-4 py-2">
-            <Search className="mr-2 h-5 w-5 text-gray-500" />
-            <Input
-              type="text"
-              placeholder="Buscar artículos..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="border-0 bg-transparent py-2 text-gray-800 shadow-none focus-visible:ring-0 focus-visible:ring-offset-0"
-            />
-            {searchQuery && (
-              <Button variant="ghost" size="icon" onClick={() => setSearchQuery("")} className="h-8 w-8 p-0">
-                <X className="h-4 w-4" />
-                <span className="sr-only">Limpiar búsqueda</span>
-              </Button>
-            )}
-            <Button className="ml-2 rounded-full bg-accent text-primary hover:bg-accent/90" onClick={applyFilters}>
-              Buscar
-            </Button>
-          </div>
+
         </div>
       </section>
 
