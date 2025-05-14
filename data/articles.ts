@@ -142,7 +142,7 @@ export const articles: Article[] = [
     category: "Ciencia Deportiva",
     author: "Dr. Roberto Fernández",
     date: "10 de mayo, 2025",
-    image: "/placeholder.svg?key=u2isk",
+    image: "/04826dce193bf7644357aed28652d7a3.jpg",
     excerpt:
       "Exploramos los avances científicos que están transformando el entrenamiento y la recuperación de los atletas de élite.",
     content:
