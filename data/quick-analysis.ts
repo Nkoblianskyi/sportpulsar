@@ -21,12 +21,12 @@ export interface QuickAnalysis {
 export const quickAnalyses: QuickAnalysis[] = [
   {
     id: "1",
-    title: "Rendimiento Ofensivo: Liga Española",
+    title: "Rendimiento Ofensivo: Liga Solaris",
     date: "14 de mayo, 2025",
     stats: [
       {
         id: "1",
-        team: "Barcelona",
+        team: "Solaris FC",
         title: "Goles por partido",
         value: 2.8,
         maxValue: 4,
@@ -36,7 +36,7 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
       {
         id: "2",
-        team: "Real Madrid",
+        team: "Orion United",
         title: "Goles por partido",
         value: 2.5,
         maxValue: 4,
@@ -46,7 +46,7 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
       {
         id: "3",
-        team: "Atlético Madrid",
+        team: "Nova Titans",
         title: "Goles por partido",
         value: 1.7,
         maxValue: 4,
@@ -56,20 +56,20 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
     ],
     insights: [
-      "Barcelona: 7 de sus últimos 10 partidos terminaron con más de 2.5 goles",
-      "Real Madrid: Marca en el primer tiempo en el 80% de sus partidos como local",
-      "Atlético Madrid: Ha reducido su promedio goleador un 15% desde el inicio de temporada",
+      "Solaris FC: 7 de sus últimos 10 partidos terminaron con más de 2.5 goles",
+      "Orion United: Marca en el primer tiempo en el 80% de sus partidos como local",
+      "Nova Titans: Ha reducido su promedio goleador un 15% desde el inicio de temporada",
     ],
-    slug: "rendimiento-ofensivo-liga-espanola",
+    slug: "rendimiento-ofensivo-liga-solaris",
   },
   {
     id: "2",
-    title: "Análisis de Posesión: Champions League",
+    title: "Análisis de Posesión: Torneo Celestial",
     date: "12 de mayo, 2025",
     stats: [
       {
         id: "1",
-        team: "Manchester City",
+        team: "Zenith Club",
         title: "Posesión promedio",
         value: 68,
         maxValue: 100,
@@ -79,7 +79,7 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
       {
         id: "2",
-        team: "Bayern Munich",
+        team: "Lunar Knights",
         title: "Posesión promedio",
         value: 59,
         maxValue: 100,
@@ -89,7 +89,7 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
       {
         id: "3",
-        team: "PSG",
+        team: "Astral FC",
         title: "Posesión promedio",
         value: 54,
         maxValue: 100,
@@ -99,20 +99,20 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
     ],
     insights: [
-      "Manchester City: Mantiene más del 65% de posesión en el 90% de sus partidos",
-      "Bayern Munich: Su eficiencia de conversión posesión-goles es la más alta del torneo",
-      "PSG: A pesar de menor posesión, genera más ocasiones claras que la temporada anterior",
+      "Zenith Club: Mantiene más del 65% de posesión en el 90% de sus partidos",
+      "Lunar Knights: Su eficiencia de conversión posesión-goles es la más alta del torneo",
+      "Astral FC: A pesar de menor posesión, genera más ocasiones claras que la temporada anterior",
     ],
-    slug: "analisis-posesion-champions-league",
+    slug: "analisis-posesion-torneo-celestial",
   },
   {
     id: "3",
-    title: "Efectividad Defensiva: Serie A",
+    title: "Efectividad Defensiva: Liga Umbra",
     date: "10 de mayo, 2025",
     stats: [
       {
         id: "1",
-        team: "Inter",
+        team: "Obsidian Guard",
         title: "Goles concedidos",
         value: 0.9,
         maxValue: 3,
@@ -122,7 +122,7 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
       {
         id: "2",
-        team: "Juventus",
+        team: "Crimson Blades",
         title: "Goles concedidos",
         value: 0.7,
         maxValue: 3,
@@ -132,7 +132,7 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
       {
         id: "3",
-        team: "Milan",
+        team: "Phantom Wolves",
         title: "Goles concedidos",
         value: 1.2,
         maxValue: 3,
@@ -142,10 +142,10 @@ export const quickAnalyses: QuickAnalysis[] = [
       },
     ],
     insights: [
-      "Juventus: 6 porterías a cero en sus últimos 8 partidos",
-      "Inter: Reduce un 30% los tiros a puerta recibidos en la segunda mitad",
-      "Milan: Ha concedido el 70% de sus goles en los últimos 15 minutos de partido",
+      "Crimson Blades: 6 porterías a cero en sus últimos 8 partidos",
+      "Obsidian Guard: Reduce un 30% los tiros a puerta recibidos en la segunda mitad",
+      "Phantom Wolves: Ha concedido el 70% de sus goles en los últimos 15 minutos de partido",
     ],
-    slug: "efectividad-defensiva-serie-a",
+    slug: "efectividad-defensiva-liga-umbra",
   },
 ]
