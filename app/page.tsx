@@ -10,7 +10,7 @@ import FaqAccordion from "@/components/faq-accordion"
 
 import ImpactZone from "@/components/impact-zone"
 import StreetVoices from "@/components/street-voices"
-import QuickAnalysis from "@/components/quick-analysis"
+// import QuickAnalysis from "@/components/quick-analysis"
 import DailyEditorial from "@/components/daily-editorial"
 
 export default function Home() {
@@ -207,7 +207,7 @@ export default function Home() {
       <StreetVoices />
 
       {/* Quick Analysis */}
-      <QuickAnalysis />
+      {/* <QuickAnalysis /> */}
 
       {/* Daily Editorial */}
       <DailyEditorial />
