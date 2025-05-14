@@ -40,7 +40,7 @@ export default function QuickAnalysis() {
               <h3 className="mb-4 text-xl font-bold text-primary">{currentAnalysis.title}</h3>
               <p className="mb-6 text-sm text-gray-500">{currentAnalysis.date}</p>
 
-              <div className="mb-6 space-y-4">
+              <div className="mb-6 space-y-4 text-gray-500">
                 <h4 className="font-semibold text-primary">Top Insights</h4>
                 <ul className="space-y-3">
                   {currentAnalysis.insights.map((insight, index) => (
@@ -51,10 +51,10 @@ export default function QuickAnalysis() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: index * 0.1 + 0.3 }}
                     >
-                      <span className="mr-2 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-primary">
+                      <span className="mr-2 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-gray-500">
                         {index + 1}
                       </span>
-                      <span>{insight}</span>
+                      <span className="text-gray-600">{insight}</span>
                     </motion.li>
                   ))}
                 </ul>
@@ -77,7 +77,7 @@ export default function QuickAnalysis() {
                         <p className="text-sm text-gray-500">{stat.title}</p>
                       </div>
                       <div className="flex items-center">
-                        <span className="mr-2 text-lg font-bold" style={{ color: stat.color }}>
+                        <span className="mr-2 text-lg font-bold text-gray-500 " style={{ color: stat.color }}>
                           {stat.value}
                         </span>
                         {stat.trend === "up" ? (
@@ -92,7 +92,7 @@ export default function QuickAnalysis() {
 
                     <div className="h-2 w-full overflow-hidden rounded-full bg-gray-200">
                       <motion.div
-                        className="h-full rounded-full"
+                        className="h-full rounded-full text-gray-500"
                         style={{ backgroundColor: stat.color }}
                         initial={{ width: 0 }}
                         animate={{ width: animateStats ? `${(stat.value / stat.maxValue) * 100}%` : 0 }}

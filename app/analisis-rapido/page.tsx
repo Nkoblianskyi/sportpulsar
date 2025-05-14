@@ -94,7 +94,7 @@ export default function QuickAnalysisPage() {
                       <h3 className="mb-4 font-semibold text-primary">Top Insights</h3>
                       <ul className="space-y-3">
                         {analysis.insights.map((insight, index) => (
-                          <li key={index} className="flex items-start rounded-lg bg-white p-3 text-sm shadow-sm">
+                          <li key={index} className="flex items-start rounded-lg bg-white p-3 text-sm shadow-sm text-gray-500">
                             <span className="mr-2 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-accent text-xs font-bold text-primary">
                               {index + 1}
                             </span>
