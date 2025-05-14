@@ -112,13 +112,13 @@ export default function StreetVoicesPage() {
           </div>
 
           {/* Submit your voice CTA */}
-          <div className="mt-16 rounded-lg bg-gray-800 p-8 text-center">
+          {/* <div className="mt-16 rounded-lg bg-gray-800 p-8 text-center">
             <h2 className="mb-4 text-2xl font-bold text-white">¿Quieres que tu voz sea escuchada?</h2>
             <p className="mb-6 text-gray-300">
               Comparte tu opinión sobre el mundo del deporte y forma parte de nuestra comunidad.
             </p>
             <Button className="bg-accent text-primary hover:bg-accent/90">Enviar mi Comentario</Button>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>
